@@ -1,17 +1,13 @@
-# minimal-reproduction-template
-
-First, read the [Renovate minimal reproduction instructions](https://github.com/renovatebot/renovate/blob/main/docs/development/minimal-reproductions.md).
-
-Then replace the current `h1` with the Renovate Issue/Discussion number.
+# Renovate discussion 26054
 
 ## Current behavior
 
-Explain the current behavior here.
+Renovate complains that `<9.0.3.0` is not a valid version range.
 
 ## Expected behavior
 
-Explain the expected behavior here.
+Renovate accepts the specified version range, because `9.0.3.0` is in fact a legal NuGet package version number.
 
 ## Link to the Renovate issue or Discussion
 
-Put your link to the Renovate issue or Discussion here.
+[Getting "Invalid allowedVersions" for x.x.x.x version](https://github.com/renovatebot/renovate/discussions/26054)
